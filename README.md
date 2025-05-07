@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Us | CleanCall</title>
+  <title>About Us | Fresh Home</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans">
 
   <!-- Header -->
-  <header class="bg-white shadow-md">
+  <header class="bg-skyblue shadow-md">
     <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
       <h1 class="text-2xl font-bold text-blue-600">CleanCall</h1>
       <nav class="space-x-4">
