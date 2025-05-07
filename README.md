@@ -1,68 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Us | Fresh Home</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-50 text-gray-800 font-sans">
+<body style="margin:0; padding:0; font-family:sans-serif; color:white;">
+  <div style="
+    background-image: url('https://images.unsplash.com/photo-1581579185169-6cdb76d9b9c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  ">
+    <h1 style="font-size: 4rem; font-weight: bold; text-shadow: 2px 2px 8px rgba(0,0,0,0.6);">
+      Fresh Home
+    </h1>
+    <p style="max-width: 600px; margin-top: 20px; font-size: 1.2rem; text-shadow: 1px 1px 4px rgba(0,0,0,0.5);">
+      Welcome to Fresh Home — your trusted cleaning agency for spotless, stress-free living. We turn houses into homes with expert care and eco-friendly service.
+    </p>
 
-  <!-- Header -->
-  <header class="bg-blue shadow-md">
-    <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
-      <h1 class="text-2xl font-bold text-white-600">CleanCall</h1>
-      <nav class="space-x-4">
-        <a href="index.html" class="text-gray-600 hover:text-blue-600">Home</a>
-        <a href="about.html" class="text-white-600 font-semibold">About</a>
-        <a href="services.html" class="text-gray-600 hover:text-blue-600">Services</a>
-        <a href="contact.html" class="text-gray-600 hover:text-blue-600">Contact</a>
-      </nav>
+    <!-- Contact Email -->
+    <div style="
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      font-size: 0.9rem;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+    ">
+      Contact: <a href="mailto:GgioGwapo@gmail.com" style="color: white; text-decoration: underline;">GgioGwapo@gmail.com</a>
     </div>
-  </header>
-
-  <!-- About Section -->
-  <section class="max-w-5xl mx-auto px-4 py-16">
-    <h2 class="text-3xl font-bold text-center mb-8">About Fresh Home</h2>
-    <p class="text-lg leading-relaxed text-gray-700 mb-6">
-      At <strong>CleanCall</strong>, we're committed to providing top-quality residential and commercial cleaning services with the convenience of quick call-in or online bookings. Founded in 2020, we've helped thousands of clients enjoy sparkling clean spaces without the hassle.
-    </p>
-    <p class="text-lg leading-relaxed text-gray-700 mb-6">
-      Our team of highly trained and trusted cleaners use eco-friendly products, modern tools, and follow industry-standard hygiene protocols to ensure your safety and satisfaction.
-    </p>
-    <p class="text-lg leading-relaxed text-gray-700">
-      Whether it’s a one-time deep clean or a recurring service, our mission is to make your life easier and your environment healthier. Just give us a call or book online — we’ll take care of the rest!
-    </p>
-  </section>
-
-  <!-- Team Section (Optional) -->
-  <section class="bg-white py-16">
-    <div class="max-w-5xl mx-auto px-4">
-      <h3 class="text-2xl font-semibold text-center mb-8">Meet Our Team</h3>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        <div class="text-center">
-          <img src="team1.jpg" alt="Team Member" class="w-24 h-24 mx-auto rounded-full mb-4" />
-          <h4 class="font-bold">Carl lorin</h4>
-          <p class="text-sm text-gray-500">Lead Cleaner</p>
-        </div>
-        <div class="text-center">
-          <img src="team2.jpg" alt="Pamela Lorin" class="w-24 h-24 mx-auto rounded-full mb-4" />
-          <h4 class="font-bold">Bree</h4>
-          <p class="text-sm text-gray-500">Operations Manager</p>
-        </div>
-        <div class="text-center">
-          <img src="team3.jpg" alt="Team Member" class="w-24 h-24 mx-auto rounded-full mb-4" />
-          <h4 class="font-bold">Gio</h4>
-          <p class="text-sm text-gray-500">Customer Service</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-gray-100 py-6 mt-12 text-center text-sm text-gray-500">
-    © 2025 Fresh Home. All rights reserved.
-  </footer>
-
+  </div>
 </body>
-</html>
